@@ -1,0 +1,11 @@
+test1 = struct2cell(load('test1.mat'));
+test1_ = struct2cell(load('test1_.mat'));
+% test2 = struct2cell(load('test2.mat'));
+% test2_ = struct2cell(load('test2_.mat'));
+% test3 = struct2cell(load('test3.mat'));
+% test3_ = struct2cell(load('test3_.mat'));
+% test4 = struct2cell(load('test4.mat'));
+% test4_ = struct2cell(load('test4_.mat'));
+% test5 = struct2cell(load('test5.mat'));
+% test5_ = struct2cell(load('test5_.mat'));
+res = isequal(test1{1}{1},test1_{1}{1})
